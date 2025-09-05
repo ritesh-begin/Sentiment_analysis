@@ -12,16 +12,13 @@ This project demonstrates how to build a sentiment analysis model that classifie
 - `TestReviews.csv`  
   Test dataset with sample reviews and sentiment labels.
 
-- `TrainingDataPositive.txt` / `TrainingDataNegative.txt`  
-  Training data files containing positive and negative reviews used to build the model.
-
 ---
 
 ## ⚙️ Workflow
 
 1. **Data Preparation**
    - Load training data from text files.
-   - Assign labels:  
+   - It has assigned labels:  
      - `1` → Positive  
      - `0` → Negative  
 
@@ -40,7 +37,7 @@ This project demonstrates how to build a sentiment analysis model that classifie
 
 5. **Evaluation**
    - Tested on `TestReviews.csv`.  
-   - Metrics used: Accuracy, Confusion Matrix, Precision, Recall, F1-score.  
+   - Metrics used: Accuracy, Confusion Matrix.  
 
 ---
 
@@ -50,11 +47,4 @@ This project demonstrates how to build a sentiment analysis model that classifie
 - The model correctly identifies positive and negative reviews with good balance.  
 
 ---
-
-## 🚀 How to Run
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/sentiment-analysis-logistic.git
-   cd sentiment-analysis-logistic
 
