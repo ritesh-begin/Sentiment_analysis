@@ -8,7 +8,8 @@ This project demonstrates how to build a sentiment analysis model that classifie
   This filtered words are obtained from **re** module to clear out all the special characters and symbols , then we convert it to lower and split it.
   
   The most important part is  _Feature-Scaling_ using **TF-IDF** which enhance the ability of the model to distinguish b/w positive and negative sentiment . Then the                  **LogisticRegression model** is trained .
-  
+
+  Also there is one point to notice that considerebly affects the  **outcome** . The _CountVectorizer()_ gives like **14 False Negative** and **71 False Positive** in contusion      matrix , which clarifies that the model is gonna be affected due to the _False Positive _ result . And since **Tf-IDF** out performs the _Fasle Positive_ result by minimizing it   to **6** so _TF-IDf_ is used for vectorizing purpose.
 
 ---
 
