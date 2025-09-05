@@ -5,9 +5,9 @@ This project demonstrates how to build a sentiment analysis model that classifie
 ## How it Works?
   Firstly,the data is loaded in **mdata** and then the preprocessing applies. In preprocessig we use **corpus** array to hold all the filtered words from the reviews column.
   
-  This filtered words are obtained from **re** module to clear out all the special characters and symbols , then we convert it to lower and split it. The most important part is    
+  This filtered words are obtained from **re** module to clear out all the special characters and symbols , then we convert it to lower and split it.
   
-  _Feature-Scaling_ using **TF-IDF** which enhance the ability of the model to distinguish b/w positive and negative sentiment . Then the **Logistic Regression model** is trained .
+  The most important part is  _Feature-Scaling_ using **TF-IDF** which enhance the ability of the model to distinguish b/w positive and negative sentiment . Then the                  **LogisticRegression model** is trained .
   
 
 ---
