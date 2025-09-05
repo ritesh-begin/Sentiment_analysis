@@ -2,7 +2,7 @@
 
 This project demonstrates how to build a sentiment analysis model that classifies customer reviews into **positive** and **negative** categories using machine learning.
 
-## <img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/42c5d45c-e646-425a-956d-a6e530ff898b" />Summary 
+##<img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/4cfda26f-077a-4fa5-a6d8-9dcfd8a68018" /> Summary 
   Firstly,the data is loaded in **mdata** and then the preprocessing applies. In preprocessig we use **corpus** array to hold all the filtered words from the reviews column.
   
   This filtered words are obtained from **re** module to clear out all the special characters and symbols , then we convert it to lower and split it.
